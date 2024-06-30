@@ -1,0 +1,37 @@
+.heading {
+
+}
+
+.nav {
+  
+}
+
+.nav-list {
+  
+}
+
+.nav-list-mobile {
+  
+}
+
+/*.fa-regular {- do not know how to use the fa-regular witout scrit, leave it there just in case we need it
+ 
+}*/
+
+.nav-item {
+  
+}
+
+.nav-item a {
+
+}
+
+@media screen and (min-width: 768px) {
+  .nav-list {
+    
+  }
+
+  .nav-list-mobile {
+    
+  }
+}

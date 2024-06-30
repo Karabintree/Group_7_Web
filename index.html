@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YYC Pupies</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <!-- Open-source icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="/Styles/heading.css" />
+  <link rel="stylesheet" type="text/css" href="/Styles/hero.css" />
+  <link rel="stylesheet" type="text/css" href="/Styles/content.css" />
+  <link rel="stylesheet" type="text/css" href="/Styles/services.css" />
+  <link rel="stylesheet" type="text/css" href="/Styles/video.css" />
+  <link rel="stylesheet" type="text/css" href="/Styles/accodeon.css" />
+  <link rel="stylesheet" type="text/css" href="/Styles/footer.css" />
+
+</head>
+
+<body>
+
+  <section class="heading">
+    <div class="logo">YYC Puppies</div>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#home">Home</a></li>
+        <li class="nav-item"><a href="#services">Services</a></li>
+        <li class="nav-item"><a href="#about_us">About Us</a></li>
+        <li class="nav-item"><a href="#pricing">Pricing</a></li>
+      </ul>
+      <!-- Use this nav list to display for mobile-->
+      <!-- <ul class="nav-list-mobile">
+        <li class="nav-item-mobile"><a href="#home"><i class="fa-regular fa-house"></i><i class="fa-regular fa-font-awesome"></i></a></li>
+        <li class="nav-item-mobile"><a href="#services"><i class="fa-regular fa-people-group"></i></a></li>
+        <li class="nav-item-mobile"><a href="#about_us"><i class="fa-regular fa-calendar-xmark"></i></a></li>
+        <li class="nav-item-mobile"><a href="#pricing"><i class="fa-regular fa-address-card"></i></a></li>
+      </ul> -->
+    </nav>
+  </section>
+
+  <!-- Hero Banner -->
+  <section id="home" class="hero">
+    <div class="hero-banner">
+      <img src="/images/hero_image.jpg" alt="">
+      <h1>YYC Puppies</h1>
+    </div>
+  </section>
+
+  <!-- Content Section Description of the business-->
+  <section id="about_us" class="about_us">
+    <div class="content-section">
+      <h1>About YYC Puppies</h1>
+      <p>Description of the busines.</p>
+    </div>
+  </section>
+
+  <!-- Card Section -->
+  <section id="services" class="services">
+    <div class="services-grid">
+      <div class="services-card">
+        <img src="/images/Full Service.jpg" alt="Card image" style="width:50%">
+        <div class="container">
+          <h4><b>Full Service</b></h4>
+          <p>Card content...</p>
+        </div>
+      </div>
+
+
+      <div class="services-card">
+        <img src="/images/Trim.jpg" alt="Card image" style="width:50%">
+        <div class="container">
+          <h4><b>Card Title</b></h4>
+          <p>Card content...</p>
+        </div>
+      </div>
+
+
+
+      <div class="services-card">
+        <img src="/images/Wash.jpg" alt="Card image" style="width:50%">
+        <div class="container">
+          <h4><b>Wash</b></h4>
+          <p>Card content...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Embedded Video -->
+  <div class="video-section">
+    <h1> All puppies welcome!!</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+
+  <!-- Accordion -->
+  <section id="pricing" class="pricing">
+    <button class="accordion">Section 1</button>
+    <div class="panel">
+      <p>Section 1 content...</p>
+    </div>
+
+    <button class="accordion">Section 2</button>
+    <div class="panel">
+      <p>Section 2 content...</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>2024 YYC Puppies. All rights reserved.</p>
+  </div>
+
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+  </script>
+
+</body>
+
+</html>
