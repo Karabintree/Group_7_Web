@@ -1,8 +1,83 @@
 .hero {
-    
-    background-size: cover;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
 }
 
-.hero-content {
- 
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.183), rgba(0,0,0,0.183)), url("../images/hero_image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh; 
+}
+
+.hero-text {
+    color: white;
+    text-align: center;
+    margin-top: 
+}
+
+.hero-text h1 {
+    font-size: 100px; 
+    margin-bottom: 10px; 
+}
+
+.hero-text a.hero-btn {
+    display: inline-block;
+    font-size: 24px; 
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #759cbf;
+    padding: 10px 20px; 
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.hero-text a.hero-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .hero-text h1 {
+        font-size: 72px; 
+    }
+
+    .hero-text a.hero-btn {
+        font-size: 20px; 
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .hero-image {
+        height: 80vh;
+    }
+
+    .hero-text h1 {
+        font-size: 100px; 
+    }
+
+    .hero-text a.hero-btn {
+        font-size: 24px; 
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .hero-text h1 {
+        font-size: 48px; 
+    }
+
+    .hero-text a.hero-btn {
+        font-size: 18px; 
+        padding: 8px 16px; 
+    }
 }
