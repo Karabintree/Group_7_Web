@@ -8,6 +8,7 @@
 h1 {
   font-size: 2rem;
   text-align: center;
+  font-family: "Kalnia", serif
 }
 
 .services-grid {
@@ -16,6 +17,7 @@ h1 {
   gap: 20px;
   justify-content: center;
   text-align: center;
+  font-family: "Kalnia", serif
 }
 
 .services-card {
@@ -40,12 +42,30 @@ h1 {
 .services-card p {
   text-align: center;
   margin-bottom: 20px;
+  font-family: "Kalnia", serif
 }
 
 /* Media query for larger screens (min-width: 768px) */
 @media screen and (min-width: 768px) {
   .services-grid {
       flex-wrap: nowrap; /* Prevent card wrapping */
+  }
+}
+/* Media query for phones (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  .services {
+      /* Adjust height or other properties as needed */
+      height: auto;
+  }
+
+  .services-grid {
+      /* Adjust gap or other properties as needed */
+      gap: 10px;
+  }
+
+  .services-card {
+      /* Adjust max-width or other properties as needed */
+      max-width: 100%;
   }
 }
 

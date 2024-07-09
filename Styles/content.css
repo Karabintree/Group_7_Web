@@ -24,18 +24,18 @@
 
 .text-section {
     max-width: 50%; 
-    font-family: 'Open Sans';
+    font-family: "Kalnia", serif;
 }
 
 .text-section h1 {
     font-size: 24px;
-    font-family: 'Open Sans';
+    font-family: "Kalnia", serif;
     color: #f7a643;
 }
 
 .text-section p {
     font-size: 16px;
-    font-family: 'Open Sans';
+    font-family: "Kalnia", serif;
 }
 
 /* Tablet */

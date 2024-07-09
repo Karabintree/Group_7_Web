@@ -2,7 +2,7 @@
     display: grid;
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans';
+    font-family: "Kalnia", serif;
 }
 
 .hero-image {
@@ -19,12 +19,13 @@
 .hero-text {
     color: white;
     text-align: center;
-    margin-top: 
+
 }
 
 .hero-text h1 {
     font-size: 100px; 
     margin-bottom: 10px; 
+    font-family: "Kalnia", serif;
 }
 
 .hero-text a.hero-btn {
@@ -37,6 +38,7 @@
     padding: 10px 20px; 
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
+    font-family: "Kalnia", serif;
 }
 
 .hero-text a.hero-btn:hover {

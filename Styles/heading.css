@@ -6,9 +6,11 @@
   color: white;
   padding: 20px;
   text-align: center;
+  font-family: "Kalnia", serif;
 }
 
 .logo {
+  font-family: "Kalnia", serif;
   font-size: 24px;
   font-weight: bold;
 }
@@ -31,6 +33,7 @@
   text-decoration: none;
   color: white;
   font-size: 16px;
+  font-family: "Kalnia", serif;
 }
 
 /* Responsive styles */
