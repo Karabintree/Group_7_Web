@@ -19,7 +19,7 @@ async function fetchBreeds() {
     }
 }
 
-// Call the function to populate the dropdown
+//  populate the dropdown
 fetchBreeds();
 
 const select = document.querySelector('.breeds');
