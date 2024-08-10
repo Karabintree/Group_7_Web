@@ -1,0 +1,14 @@
+.maintext {
+    text-align: center;
+    display: grid;
+    margin: 16px;
+    gap: 24px;
+  }
+  h1 {
+    margin-bottom: 24px;
+    font-family: "Kalnia", serif;
+  }
+  header {
+    display:flex;
+    display:grid;
+  }
