@@ -1,14 +1,38 @@
 .maintext {
-    text-align: center;
-    display: grid;
-    margin: 16px;
-    gap: 24px;
+  text-align: center;
+  display: grid;
+  margin: 16px;
+  gap: 24px;
+}
+h1 {
+  margin-bottom: 24px;
+  font-family: "Kalnia", serif;
+}
+header {
+  display: flex;
+  display: grid;
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .map iframe {
+    width: 100%;
+    height: 200px;
   }
-  h1 {
-    margin-bottom: 24px;
-    font-family: "Kalnia", serif;
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .map iframe {
+    width: 80%;
+    height: 300px;
   }
-  header {
-    display:flex;
-    display:grid;
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+  .map iframe {
+    width: 60%;
+    height: 400px;
   }
+}
